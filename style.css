@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* position: fixed; */
+}
+.sidebar{
+   width: 350px;
+   height: 100%; 
+   background-color:rgb(32, 32, 32);
+   font-family: 'Times New Roman', Times, serif;
+   /* position: sticky; */
+}
+.sidebar .menu_bar{
+    padding: 45px;
+    box-shadow:20px white;
+    position: fixed;
+}
+.main_content{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(38, 37, 37);
+    overflow: auto;
+}
+.sidebar .menu_bar li{
+    list-style: none;
+    padding: 32px 0px;
+    font-size: 23px;
+}
+.sidebar .menu_bar li a{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    width:350px auto;
+    height: 450px;
+    /* background-color: rgb(105, 102, 102); */
+    margin: 170px 50px 100px 50px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.content{
+    display:flex;
+    align-items: center;
+    flex-direction:row; 
+}
+.name h1{
+    margin-left: 30px;
+    color: white;
+}
+.name p{
+    margin-left: 30px;
+    color: white;
+}
+.image img{
+    width: 380px;
+    height: 400px;
+    float: right;
+    padding: 5px;
+    /* margin-bottom: 25px;
+    margin-right: 10px; */
+
+}
+.name button{
+    margin-left: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 4px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(24, 112, 166);
+    opacity: 1;
+}
+.name button:hover{
+ opacity: 0.7;
+ background-color: black;
+}
+.about{
+    float: right;
+}
+.main_content1{
+    display: flex;
+    margin-top: 10px;
+}
+.about h1{
+    text-align: center;
+    font-size: bold;
+
+}
+.about h1 span{
+    color: yellow;
+}
+.section h1{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: yellow;
+}
+.section1 h2{
+    /* margin-top: 15px;
+    margin-left: 10px; */
+   padding: 4px;
+} 
+.section1 h2 span{
+    color: yellow;
+    /* gap: 8px; */
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+}
+.section2 p{
+    margin-left: 21rem;
+    margin-top: 20px;
+    font-size: bold;
+    color: white;
+    padding: 1px;
+}
+.section2 input{
+    margin-left: 10px;
+}
+.section2 h1 span{
+    color: yellow;
+    margin-left: 20rem;
+}
+.section3{
+    display: flex;
+    margin-top: 30px;
+}
+.education h1{
+    text-align: center;
+    font-size: bold;
+}
+.education h1 span{
+    color: yellow;
+}
+.ed2{
+    margin-left: 150px;
+}
+.ed3{
+    margin-left: 280px;
+}
+.ed1 p{
+    font-size: 18px;
+    gap: 3px;
+    color: white;
+}
+.ed2 p{
+    font-size: 18px;
+    color: white;
+    gap: 3px;
+}
+.ed3 p{
+    font-size: 18px;
+    color: white;
+    gap: 3px;
+}
+.ed1 h3{
+    border: 1px solid black;
+    width: 120px;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    background-color: lightslategray;
+}
+.ed2 h3{
+    border: 1px solid black;
+    width: 120px;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    background-color: lightslategray;
+}
+.ed3 h3{
+    border: 1px solid black;
+    width: 120px;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    background-color: lightslategray;
+}
+.contact h1{
+    text-align: center;
+}
+.contact h1 span{
+    color: rgb(186, 186, 22);
+}
+.section4{
+    display:flex;
+}
+.details{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.details input{
+    padding: 8px;
+    margin: 8px;
+    gap: 10px;
+    width: 350px; 
+    height: 30px;
+    border: 1px solid black;
+}
+
+.information{
+    margin-left: 320px;
+    margin-top: 45px;
+}
+.information h3{
+    /* margin-left: 10px; */
+    gap: 4px;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+}
+.contact button{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color:lightseagreen;
+}
+.section5{
+    display: flex;
+    margin-top: 25px;
+}
+.experience h1{
+    text-align: center;
+}
+.experience h1 span{
+    color: yellow;
+}
+.intern1 h1{
+   color: yellow;  
+}
+.intern1 h3{
+    margin: 6px;  
+    font-size: 20px;
+}
+.intern1 p{
+    font-size: 20px;
+    color: white;
+}
+.certificate1{
+    margin-left: 45px;
+}
+.certificate1 h1{
+    color: yellow;
+    margin-left: 50px;
+
+}
+.certificate1 p{
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    margin-top: 6px;
+    margin-left: 50px;
+}
+.certificate2{
+    margin-left:100px;
+}
+.certificate2 h1{
+    color: yellow;
+}
+.certificate2 p{
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    margin-top: 6px;
+    /* margin-left: 50px; */
+}
+@media (max-width: 1250px) {
+    /* … */
+  }
